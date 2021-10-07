@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://timetracker.mohammadahmadi.me/sitemap.xml

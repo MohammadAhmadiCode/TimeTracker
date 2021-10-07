@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "timetracker",
+  "alias": "timetracker.mohammadahmadi.me",
+  "builds": [{ "src": "package.json", "use": "@vercel/next" }]
+}

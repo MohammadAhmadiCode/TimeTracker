@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "next --port 8000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "prod:build": "next build",
+    "prod:start": "next start --port 80"
+  },
+  "dependencies": {
+    "chart.js": "^3.0.2",
+    "localforage": "^1.9.0",
+    "next": "^10.1.3",
+    "next-offline": "^5.0.3",
+    "react": "^17.0.2",
+    "react-csv": "^2.0.3",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^3.23.18",
+    "react-hotkeys": "^2.0.0",
+    "react-is": "^17.0.2",
+    "react-localization": "^1.0.16",
+    "react-toastify": "^5.3.2",
+    "react-transition-group": "^4.2.1",
+    "styled-components": "^4.3.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "prettier": "^2.2.1",
+    "webpack": "^4.41.2"
+  }
+}
