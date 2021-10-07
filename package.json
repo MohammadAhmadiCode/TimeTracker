@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "next --port 8000",
+    "start": "next --port 7000",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "prod:build": "next build",
